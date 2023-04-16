@@ -1,9 +1,9 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut} from "https://www.gstatic.com/firebasejs/9.19.1/firebase/auth.js";
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut} from "firebase/auth";
 const firebaseConfig = {
   apiKey: "AIzaSyAlhgRL7F4q6XhUl0oYS1OnkIXzIn48guo",
-  authDomain: "learningmap.netlify.app/",
+  authDomain: "https://learningmap.netlify.app/",
   projectId: "learningmap-ed92f",
   storageBucket: "learningmap-ed92f.appspot.com",
   messagingSenderId: "741209908663",
