@@ -1,60 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF=9">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="form.css">
-        <script type="module" src="form.js"></script>
-        <title>Quiz Login</title>
-    </head>
-    <body>
-        <div class="center-box" id="login-div">
-            <h2>Login</h2>
-            <input type="email" placeholder="Email" id="login-email" name="login-email" required class="text-field"/><br>
-            <input type="password" placeholder="Password" id="login-password" name="login-password" required class="text-field"/><br>
-            <button id="login-btn" class="btn-style">Login</button><br>
-            <button id="reg-btn" class="an-btn">don't have an account REGISTER</button>
-        </div>
-        <div class="center-box" id="register-div">
-            <h2>Register</h2>
-            <input type="email" placeholder="Type your email" name="register-email" id="register-email" required class="text-field"/><br>
-            <input type="password" placeholder="Enter your password" name="register-password" id="register-password" required class="text-field"/><br>
-            <button id="register-btn" class="btn-style">Register</button><br>
-            <button id="log-btn" class="an-btn">have an account? LOGIN</button>
-        </div>
-
-       
-        
-        <div id="result-box">
-            <h3 id="result"></h3>
-            <button id="log-out-btn" class="btn-style">LOG OUT</button>
-            <div class="accordion_container">
-                <div class="container">
-                    <div class="accordion">
-                        <button class="header">
-                            History Quiz
-                            <i class="icon"></i>
-                        </button>
-                        <div class="body">
-                            <li><a href="quiz.html">View Tests</a></li>             
-                        </div>
-                    </div>
-                    <div class="accordion">
-                        <button class="header">
-                            Commerce Quiz
-                            <i class="icon"></i>
-                        </button>
-                        <div class="body">
-                            <li><a href="quiz.html">View Tests</a></li>             
-                        </div>
-                    </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lab Practicals</title>
+    <link rel="stylesheet" href="../pages/styles.css">    
+</head>
+<body>
+    <div class="accordion_container">
+        <div class="container">
+            <div class="accordion">
+                <button class="header">
+                    History Quiz
+                    <i class="icon"></i>
+                </button>
+                <div class="body">
+                    <li><a href="quiz.html">View Tests</a></li>             
+                </div>
             </div>
+            <div class="accordion">
+                <button class="header">
+                    Commerce Quiz
+                    <i class="icon"></i>
+                </button>
+                <div class="body">
+                    <li><a href="quiz.html">View Tests</a></li>             
+                </div>
             </div>
-        </div>
-
     </div>
+    </div>
+    <script type="text/javascript" src="../pages/index.js"></script>
     </body>
-</html>
-
-
+    </html>
